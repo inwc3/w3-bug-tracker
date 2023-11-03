@@ -4,6 +4,13 @@ title: "<title>"
 labels: []
 body:
   - type: textarea
+    id: external_urls
+    attributes:
+      label: "External URLs"
+      description: External URLs to, e.g., threads in the Battle.net PTR or bug forums where the bug is mentioned.
+    validations:
+      required: false
+  - type: textarea
     id: description
     attributes:
       label: "Description"
