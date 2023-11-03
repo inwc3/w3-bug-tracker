@@ -1,6 +1,6 @@
 name: "Bug Report"
 description: Create a new bug report.
-title: ""
+title: "<title>"
 labels: []
 body:
   - type: textarea
