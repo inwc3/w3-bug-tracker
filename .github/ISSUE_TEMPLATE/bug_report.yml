@@ -154,10 +154,10 @@ body:
     validations:
       required: false
   - type: textarea
-    id: screenshots
+    id: attachments
     attributes:
-      label: "Screenshots"
-      description: If applicable, add screenshots to help explain the problem.
+      label: "Screenshots, test maps, other material"
+      description: If applicable, add screenshots or test maps if it is mapmaking issue or other stuff to help explain the problem.
       value: 
       render: bash
     validations:
