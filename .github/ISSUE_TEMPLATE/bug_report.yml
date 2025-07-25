@@ -109,7 +109,7 @@ body:
       description: Please enter a comprehensive description of the bug.
       placeholder: More comprehensive description of the bug...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional_information
     attributes:
@@ -123,7 +123,6 @@ body:
       label: "Expected"
       description: Please enter what should be the expected behavior.
       value: 
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -132,7 +131,6 @@ body:
       label: "Actual"
       description: Please enter what should is the actual (buggy) behavior.
       value: 
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -141,7 +139,6 @@ body:
       label: "Reproduction steps"
       description: Please enter an explicit description how to reproduce the bug.
       value: 
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -150,7 +147,6 @@ body:
       label: "Workaround"
       description: If there is a workaround, you can specify it here.
       value: 
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -159,6 +155,5 @@ body:
       label: "Screenshots, test maps, other material"
       description: If applicable, add screenshots or test maps if it is mapmaking issue or other stuff to help explain the problem.
       value: 
-      render: bash
     validations:
       required: false
